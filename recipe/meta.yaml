@@ -23,6 +23,7 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-abind
@@ -47,7 +48,7 @@ test:
 
 about:
   home: https://tlverse.org/origami
-  license: GPL-3
+  license: GPL-3.0-only
   summary: A general framework for the application of cross-validation schemes to particular functions. By allowing arbitrary lists of results, origami accommodates a range of cross-validation applications.
   license_family: GPL3
   license_file:
