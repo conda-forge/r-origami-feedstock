@@ -1,11 +1,11 @@
-About r-origami
-===============
+About r-origami-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-origami-feedstock/blob/main/LICENSE.txt)
 
 Home: https://tlverse.org/origami
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-origami-feedstock/blob/main/LICENSE.txt)
 
 Summary: A general framework for the application of cross-validation schemes to particular functions. By allowing arbitrary lists of results, origami accommodates a range of cross-validation applications.
 
